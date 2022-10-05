@@ -1,6 +1,12 @@
 {
     "name": "io.sentry.unity.runtime",
-    "references": [],
+    "references": [
+        "UnityEngine.CoreModule",
+    	"UnityEditor.CoreModule",
+    	"UnityEngine.IMGUIModule",
+    	"UnityEngine.TextRenderingModule",
+    	"UnityEngine.UIModule"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
